@@ -1,0 +1,34 @@
+name: ThaiGov
+type: profile
+description: 'A distribution for government and the public sector in Thailand.'
+core: 8.x
+
+# Required modules
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
