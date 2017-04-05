@@ -55,5 +55,7 @@ dependencies:
   - views
 
 themes:
+  - stable
+  - classy
   - bartik
   - seven
