@@ -8,3 +8,7 @@ projects[admin_toolbar][version] = 1.18
 projects[ctools][version] = 3.0-beta1
 projects[pathauto][version] = '1.0-rc1'
 projects[token][version] = '1.0-rc1'
+projects[metatag][version] = '1.0'
+projects[google_analytics][version] = '2.1'
+projects[redirect][version] = '1.0-alpha4'
+projects[simple_sitemap][version] = '2.9'
