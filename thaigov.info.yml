@@ -1,54 +1,47 @@
 name: ThaiGov
 type: profile
 description: 'A distribution for government and the public sector in Thailand.'
-core: 8.x
-
-# Optional: Declare your installation profile as a distribution
-# This will make the installer auto-select this installation profile.
-# The distribution_name property is used in the installer and other places as
-# a label for the software being installed.
+core_version_requirement: ^9
 distribution:
   name: ThaiGov Distribution.
 
 # Required modules
 dependencies:
-  - automated_cron
+  - node
+  - history
   - block
-  - block_content
   - breakpoint
   - ckeditor
   - color
-  - comment
   - config
-  - contact
+  - comment
   - contextual
+  - contact
+  - menu_link_content
   - datetime
-  - dblog
-  - dynamic_page_cache
-  - editor
-  - field
-  - field_ui
-  - file
-  - filter
-  - help
-  - history
-  - image
-  - link
-  - menu_ui
-  - node
-  - options
-  - page_cache
-  - path
+  - block_content
   - quickedit
-  - rdf
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
   - search
   - shortcut
-  - system
-  - taxonomy
-  - text
   - toolbar
-  - update
-  - user
-  - views_ui
-  - menu_link_content
+  - field_ui
+  - file
+  - rdf
   - views
+  - views_ui
+  - tour
+  - automated_cron
+themes:
+  - bartik
+  - seven
