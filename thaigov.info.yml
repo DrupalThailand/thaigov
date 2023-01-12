@@ -10,7 +10,6 @@ install:
   - history
   - block
   - breakpoint
-  - ckeditor
   - config
   - comment
   - contextual
@@ -18,6 +17,7 @@ install:
   - menu_link_content
   - datetime
   - block_content
+  - editor
   - help
   - image
   - menu_ui
