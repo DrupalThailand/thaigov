@@ -3,7 +3,11 @@
 	"description": "ThaiGov profile",
 	"type": "drupal-profile",
 	"license": "GPL-2.0-or-later",
-	"authors": [],
+    "authors": [
+        {
+            "name": "Wasan Wangrach"
+        }
+    ],
     "repositories": {
         "drupal": {
             "type": "composer",
