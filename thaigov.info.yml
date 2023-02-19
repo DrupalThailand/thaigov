@@ -10,6 +10,7 @@ install:
   - history
   - block
   - breakpoint
+  - ckeditor5
   - config
   - comment
   - contextual

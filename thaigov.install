@@ -19,3 +19,12 @@ function thaigov_profile_install() {
 
   // Add code here to make nodes, terms, etc.
 }
+
+
+/**
+ * Implements hook_install_tasks_alter().
+ */
+function thaigov_install_tasks_alter(&$tasks, $install_state) {
+  $tasks['install_profile_modules']['display_name'] = t('Install ThaiGov CMS');
+  $tasks['install_configure_form']['display_name'] = t('Configure site ThaiGov');
+}
