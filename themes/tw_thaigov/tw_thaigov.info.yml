@@ -1,0 +1,11 @@
+name: tw_thaigov
+core_version_requirement: ^10
+type: theme
+'base theme': stable
+libraries:
+  - tw_thaigov/global-styling
+starterkit: true
+version: 5.0.0
+project: tailwindcss
+datestamp: 1698076132
+generator: 'tailwindcss:5.0.0-alpha3'
