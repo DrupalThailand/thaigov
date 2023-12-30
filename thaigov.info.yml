@@ -46,13 +46,18 @@ install:
   - admin_toolbar_tools
   - ctools
   - entity
+  - mailer
+  - metatag
   - pathauto
+  - recaptcha
   - redirect
+  - session_limit
   - text_resize
   - token
   - twig_field_value
   - twig_tweak
   - xmlsitemap
+  - yoast_seo
 
 themes:
   - olivero
