@@ -46,7 +46,6 @@ install:
   - admin_toolbar_tools
   - ctools
   - entity
-  - mailer
   - metatag
   - pathauto
   - recaptcha
