@@ -1,7 +1,7 @@
 name: ThaiGov
 type: profile
 description: 'A distribution for government and the public sector in Thailand.'
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^9 || ^10 || ^11
 distribution:
   name: ThaiGov Distribution.
   install:
@@ -52,7 +52,6 @@ install:
   - recaptcha
   - redirect
   - session_limit
-  - text_resize
   - token
   - twig_field_value
   - twig_tweak
