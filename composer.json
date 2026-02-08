@@ -45,7 +45,6 @@
         "drupal/session_limit": "^2.0@beta",
         "drupal/stable": "^2.1",
         "drupal/tailwindcss": "^5.0@alpha",
-        "drupal/thaigov_claro": "^1.0@beta",
         "drupal/token": "^1.15",
         "drupal/twig_tweak": "^3.4",
         "drupal/twig_field_value": "^2.0",
